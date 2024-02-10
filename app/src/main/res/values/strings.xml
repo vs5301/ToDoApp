@@ -17,4 +17,6 @@
     <string name="edit">Edit</string>
     <string name="delete">Delete</string>
     <string name="close_button">Close Button</string>
+    <string name="username">Username</string>
+    <string name="logout">Logout</string>
 </resources>

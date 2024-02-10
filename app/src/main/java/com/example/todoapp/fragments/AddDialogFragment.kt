@@ -10,7 +10,7 @@ import com.example.todoapp.databinding.FragmentDialogBinding
 import com.example.todoapp.utils.model.TaskData
 import com.google.android.material.textfield.TextInputEditText
 
-class DialogFragment : DialogFragment() {
+class AddDialogFragment : DialogFragment() {
 
     private lateinit var binding: FragmentDialogBinding
     private lateinit var listener: TaskBtnListener

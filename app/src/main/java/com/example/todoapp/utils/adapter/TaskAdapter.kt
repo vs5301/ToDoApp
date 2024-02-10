@@ -28,9 +28,9 @@ class TaskAdapter(private val list: MutableList<TaskData>): RecyclerView.Adapter
             with(list[position]){
                 binding.etTask.text = this.task
                 Log.d(tag, "onBindViewHolder: $this")
-                binding.editTask.setOnClickListener {
-                    listener.onUpdateItem(this, position)
-                }
+//                binding.editTask.setOnClickListener {
+//                    listener.onUpdateItem(this, position)
+//                }
 
                 binding.deleteTask.setOnClickListener {
                     listener.onDeleteItem(this, position)

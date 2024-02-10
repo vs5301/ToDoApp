@@ -33,7 +33,10 @@ class LoginFragment : Fragment() {
         binding.txtAccount.setOnClickListener {
             navController.navigate(R.id.action_loginFragment_to_registerFragment)
         }
-        loginEvents()
+
+        binding.btnLogin.setOnClickListener {
+            loginEvents()
+        }
     }
 
     private fun init(view: View){

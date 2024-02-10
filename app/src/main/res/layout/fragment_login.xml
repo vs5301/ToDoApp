@@ -99,6 +99,7 @@
         android:id="@+id/txtAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="@string/create_account"
         android:layout_below="@+id/btnLogin"
         android:layout_centerHorizontal="true" />

@@ -31,9 +31,6 @@ class RegisterFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         init(view)
-        binding.txtLogin.setOnClickListener {
-            navController.navigate(R.id.action_loginFragment_to_registerFragment)
-        }
         registerEvents()
     }
 
@@ -43,10 +40,6 @@ class RegisterFragment : Fragment() {
     }
 
     private fun registerEvents(){
-
-        binding.txtLogin.setOnClickListener {
-            navController.navigate(R.id.action_registerFragment_to_homeFragment)
-        }
 
         binding.btnRegister.setOnClickListener {
             val email = binding.ediTRegEmail.text.toString()
